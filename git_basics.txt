@@ -1,0 +1,117 @@
+Starting with GIT
+
+1) mkdir store
+
+2) cd store
+
+3) git init   /* creates the local git repository */
+
+GIT Work FLOW
+
+echo 'TODO: Add contents for README' > README
+
+1) git status /* explains what happended since last point */
+
+2) git add readme.txt /* staging the text file */
+
+3) git commit -m "create a Readme"
+
+4) git status
+
+6) when you add new files or modify the files.
+   git add filenames or git add README.txt LICENCE
+
+7) git status
+
+8) git commit -m "ADDED LICENCE and finished READ ME" 
+
+9) git log /* gives the log of all the commit caoomands ecently happended. 
+
+10) Different ways of staging the file. 
+
+git add < list of files > 
+
+git add all 
+
+git add *.txt         /* add all the text file in the currect directory   */
+
+git add docs/*.txt    /* add all text files in doc directory to the project.*/
+
+git add docs/         /* add all the files in the doc directory */
+
+
+
+
+git diff /* shows unstaged difference file
+
+git add files
+
+git diff /* no response
+
+git diff --staged /* we get the response
+
+git status
+
+how to unstage the files
+
+git reset head filename
+
+how to reset the file to the last stage
+
+git checkout --filename
+
+git commit -a -m "modify the file" /* automatically adds and commits them, only works in updating the fie *
+/
+
+git reset --soft HEAD^ /* undo the last commit and moves back into staging and moves to the previous vcommit
+
+
+modidy and add to the last commit using ammend option
+
+git add todo
+
+git commit --amend -m "modify read me and add"
+
+undo all previous changes and blow away all the changes
+
+git reset --hard HEAD^
+
+undo last two changes 
+
+git reset --hard HEAD^^
+
+push and pull commands
+
+push the changes to the remote repository so others can use the changes
+
+specially to the github. Create the repository in the github take the link and then 
+
+format: git remote add <name> <url>
+git remote add origin http://github.com/poo19/repository.git
+
+git remote -v /* shows the origin i.e. http://github/poo19/repository.git
+
+format: git push <name> <branch>
+git push -u origin master /* local branch to push, */
+
+asks git hub username and password to authorize the push operation.
+
+git pull /* goes to github and pull the changees and sink local repository.
+
+to remove remote 
+
+git remove rm <name>
+
+
+
+
+
+
+
+
+git add ".txt"        /* add all text files in the whole project. */
+
+
+
+
+

@@ -1,0 +1,10 @@
+tag is a reference to a specific commit
+
+1) git tag /* lists all the tags */
+
+2) git checkout <tagname> 
+
+3) git tag -a <name> -m "description" 
+
+4) git push --tags /* push it to the remote otherwise the tags ill just remain local */
+

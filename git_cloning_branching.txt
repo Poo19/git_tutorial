@@ -1,0 +1,51 @@
+git clone url
+
+git clone url <name> /* saves the files under the name folder
+
+what cloning does
+
+1) Downloads the entire repository into a new git-real directory
+
+2) Add the 'origin' remote, pointing it to the clone URL
+
+3) checks out initial branch likely master ans set the head
+
+
+Branch
+
+git branch <name> /* creates the new branch
+
+git branch /* shows the present branch
+
+git checkout <name> /* to move to the new branch as head and any commitments will be added to this branch 
+
+to move back to the master type
+
+git checkout master
+
+MERGING
+
+git merge <name> /* merges the <name> branch with the currenct headed branch */
+
+now safely we can delete the <name> branch
+
+git -d <name> 
+
+
+ADMIN BRANCH
+
+git checkout -b admin /* -b creates the branch and checks it out
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

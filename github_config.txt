@@ -1,0 +1,10 @@
+Basic Configuration in git
+
+
+1) git config --global user.name "Poornima ByreGowda"
+
+2) git config --global user.email "poornimabyregowda.com"
+
+3) git config --global color.ui true
+
+ 

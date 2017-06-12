@@ -1,0 +1,15 @@
+git pull or get fetch /* sync local repository with the remote one
+
+git merge origin/master
+
+git push /* updates happens
+
+
+
+git log
+
+
+
+git commit -a
+
+git push

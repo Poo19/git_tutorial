@@ -1,0 +1,26 @@
+1) git checkout -b shopping_cart
+
+2) git push origin shopping_cart /* links the local branch to the remote branch
+
+3) git add file
+
+4) git commit -a -m "comment" 
+
+5) git push
+
+6) git branch /* show the list of local branch
+
+7) git branch -r /* shows the list of all the remote branch
+
+8) git remote show origin /* shows the lsit of all local and remote branches and their status
+
+9) git push origin :shopping cart /* deletes the remote branch */
+
+10) git branch -d shopping cart /* deletes the branch which has been merged else throws erros
+
+11) git branch -D shopping cart /* Deletes the branch even if the shopping cart has not been meerged to anyother branch
+
+12) git remote prune origin /* removes all the stale references to the remote deleted object */
+
+
+
