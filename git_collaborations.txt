@@ -1,4 +1,5 @@
-git pull or get fetch /* sync local repository with the remote one
+git pull /* this command sometimes auto meerges if there is dif in repo hence to fetch use git fetch
+ or get fetch /* sync local repository with the remote one
 
 git merge origin/master
 

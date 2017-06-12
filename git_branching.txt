@@ -16,9 +16,9 @@
 
 9) git push origin :shopping cart /* deletes the remote branch */
 
-10) git branch -d shopping cart /* deletes the branch which has been merged else throws erros
+10) git branch -d shopping cart /* deletes the local branch which has been merged else throws erros
 
-11) git branch -D shopping cart /* Deletes the branch even if the shopping cart has not been meerged to anyother branch
+11) git branch -D shopping cart /* Deletes the local branch even if the shopping cart has not been meerged to anyother branch
 
 12) git remote prune origin /* removes all the stale references to the remote deleted object */
 
